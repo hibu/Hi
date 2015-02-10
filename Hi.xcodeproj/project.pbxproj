@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BBCF624D1A88D42500DF32AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCF624C1A88D42500DF32AE /* main.m */; };
+		BBCF62551A88DC7900DF32AE /* YSFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCF62541A88DC7900DF32AE /* YSFinder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BBCF62491A88D42500DF32AE /* Hi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hi; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCF624C1A88D42500DF32AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBCF62531A88DC7900DF32AE /* YSFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSFinder.h; sourceTree = "<group>"; };
+		BBCF62541A88DC7900DF32AE /* YSFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSFinder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BBCF624C1A88D42500DF32AE /* main.m */,
+				BBCF62531A88DC7900DF32AE /* YSFinder.h */,
+				BBCF62541A88DC7900DF32AE /* YSFinder.m */,
 			);
 			path = Hi;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBCF624D1A88D42500DF32AE /* main.m in Sources */,
+				BBCF62551A88DC7900DF32AE /* YSFinder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
